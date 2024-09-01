@@ -8,6 +8,9 @@
       <span><%= data.date %></span>
     </time>
   <% } %>
+  <% if(data.image) { %>
+    <img src="<%= data.image %>" />
+  <% } %>
   <div class="post-tags">
     <% if(data.tags) { %>
       <% data.tags.forEach(function(tag) { %>
