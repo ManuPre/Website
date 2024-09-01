@@ -2,7 +2,7 @@
 layout: post
 title: New feature
 excerpt: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur.
-author: Chris
+author: Manuel
 image: test.png
 ---
 
