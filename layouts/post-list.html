@@ -22,7 +22,7 @@
 <div class="posts-list fade-in" style="display: flex; flex-direction: row;">
   <% data.posts.forEach(function(post) { %>
     <% if(!post.draft) { %>
-      <article class="post" style="width: 33%; height: 40px; background-image: url('<% post.image %>')">
+      <article class="post" style="width: 33%; height: 40px; background-image: url('./images/<% post.image %>')">
         <h1 class="post-title">
           <a href="<%= post.permalink %>"><%= post.title %></a>
         </h1>
