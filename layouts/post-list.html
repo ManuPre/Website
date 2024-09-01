@@ -4,7 +4,9 @@
     <% if(!post.draft) { %>
       <article class="post">
         <h1 class="post-title">
-          MANUEL
+          <% if(post.author == "Manuel") { %>
+            MANUEL
+          <% } %>
           <a href="<%= post.permalink %>"><%= post.title %></a>
         </h1>
         <time class="post-date">5/28/2015</time>
